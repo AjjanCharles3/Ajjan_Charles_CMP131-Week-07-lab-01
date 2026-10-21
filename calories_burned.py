@@ -2,6 +2,7 @@
 #Week 07
 #Lab 01
 #CMP 131
+#Calories Burned
 #Date 10-21-2026
 CALORIES_PER_MINUTE = 3.6
 
