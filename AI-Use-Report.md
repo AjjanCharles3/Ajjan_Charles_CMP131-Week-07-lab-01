@@ -2,17 +2,17 @@
 
 ## Student Information
 
-- Student name:
-- Week:
-- Lab:
-- Date:
+- Student name:charles ajjan
+- Week:7
+- Lab:1
+- Date:10-21-2026
 
 ## AI Use
 
 Did you use an AI tool for this lab?
 
 - [ ] Yes
-- [ ] No
+- [ x] No
 
 If yes, complete the sections below. If no, write “No AI tool was used” under Summary.
 
@@ -20,7 +20,7 @@ If yes, complete the sections below. If no, write “No AI tool was used” unde
 
 Examples: GitHub Copilot, ChatGPT, Microsoft Copilot, or another tool.
 
-Tool:
+Tool:github copilot
 
 ## Assistance Requested
 
@@ -51,3 +51,4 @@ Response:
 Provide any additional information about your use of AI for this lab.
 
 Response:
+I am making it a choice to take a stance against AI use and do my best to not use the AI chat Function in this course, as I feel that it is being trained to replace teachers, and I would rather learn from a person then a robot.
