@@ -4,12 +4,23 @@
 #Sum of Numbers
 #CMP 131
 #Date 10-21-2026
+user_positive_integer = 0
+
 while user_positive_integer <= 0:
     user_input = input("Please enter a positive integer (greater than 0): ")
     
-    if user_input.isdigit():
-        temp_value = int(user_input)
+    if not user_input:
+        print("Error: Invalid input. Please enter a valid whole number.")
+        continue
         
+    is_valid_number = True
+    for character in user_input:
+        if character not in "0123456789":
+            is_valid_number = False
+            break
+            
+    if is_valid_number:
+        temp_value = int(user_input)
         if temp_value > 0:
             user_positive_integer = temp_value
         else:
