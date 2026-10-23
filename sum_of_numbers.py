@@ -4,18 +4,20 @@
 #Sum of Numbers
 #CMP 131
 #Date 10-21-2026
-while True:
-    try:
-        user_positive_integer = int(input("Please enter a positive integer (greater than 0): "))
-        if user_positive_integer > 0:
-            break
+while user_positive_integer <= 0:
+    user_input = input("Please enter a positive integer (greater than 0): ")
+    
+    if user_input.isdigit():
+        temp_value = int(user_input)
+        
+        if temp_value > 0:
+            user_positive_integer = temp_value
         else:
             print("Error: The number must be greater than zero. Try again.")
-    except ValueError:
+    else:
         print("Error: Invalid input. Please enter a valid whole number.")
 
 accumulator = 0
-
 for current_integer in range(1, user_positive_integer + 1):
     accumulator += current_integer
 
